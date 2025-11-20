@@ -17,12 +17,6 @@ banana = apples * 4
 
 print(banana)
 
-# task 05 == виправте назви змінних
-1_storona = 1  // side_1
-?torona_2 = 2  // side_2
-сторона_3 = 3  // side_3
-$torona_4 = 4  // side_4
-
 # task 06 == Порахуйте периметр фігури з task 05
 # та виведіть його для користувача
 side_1 = 1
@@ -96,5 +90,3 @@ third_book = (first_book + second_book) //2
 all_books = first_book + second_book + third_book
 
 print(all_books)
-
-Updated_code = 1
