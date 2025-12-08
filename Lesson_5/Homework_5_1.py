@@ -56,6 +56,5 @@ for name, data in car_data.items():
 
 result = sorted(result)
 
-for item in result[:5]:
-    price, name = item
+for price, name in result[:5]:
     print(name, price)

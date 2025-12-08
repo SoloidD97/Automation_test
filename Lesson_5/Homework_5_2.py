@@ -1,9 +1,3 @@
-# Given list of tuples (name, surname, age, profession, City location)
-# 1 - Add your new record o the beginning of the given list
-# 2 - In modified list swap elements with indexes 1 and 5 (1<->5). Print result
-# 3 - check that all people in modified list with records indexes 6, 10, 13
-#   have age >=30. Print condition check result
-
 people_records = [
   ('John', 'Doe', 28, 'Engineer', 'New York'),
   ('Alice', 'Smith', 35, 'Teacher', 'Los Angeles'),
@@ -22,7 +16,7 @@ people_records = [
   ('Ethan', 'Anderson', 36, 'Product Manager', 'Phoenix')
 ]
 
-my_record = ('Dmytro', 'Soloid', 28, 'QA Engineer', 'Dnipro')
+my_record = ('Dmytro', 'Soloid', 28, 'QA ', 'Dnipro')
 people_records.insert(0, my_record)
 
 temp = people_records[1]
@@ -30,7 +24,6 @@ people_records[1] = people_records[5]
 people_records[5] = temp
 
 print("Після обміну:", people_records)
-
 
 check_indexes = [6, 10, 13]
 result = True
